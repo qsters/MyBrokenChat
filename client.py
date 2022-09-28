@@ -1,5 +1,6 @@
 import socket
 import random
+import settings
 from threading import Thread
 from datetime import datetime
 from colorama import Fore, init, Back
@@ -20,8 +21,8 @@ client_color = colors[0]
 # server's IP address
 # if the server is not on this machine,
 # put the private (network) IP address (e.g 192.168.1.2)
-SERVER_HOST = "192.168.1.66"
-SERVER_PORT = 5002 # server's port
+SERVER_HOST = settings.SERVER_HOST_ADDRESS
+SERVER_PORT = settings.SERVER_PORT # server's port
 separator_token = "<SEP>" # we will use this to separate the client name & message
 
 # initialize TCP socket

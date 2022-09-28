@@ -1,0 +1,4 @@
+# Change the SERVER_HOST_ADDRESS to your local IP address
+
+SERVER_HOST_ADDRESS = "127.0.0.1"
+SERVER_PORT = 5555
